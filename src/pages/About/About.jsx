@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import React, { useState, useEffect, useContext } from 'react';
 import { Context } from "../../main";
+import './About.css'
 import LinkButton from "../../components/LinkButton/LinkButton";
 
 export function About() {
