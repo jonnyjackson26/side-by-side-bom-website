@@ -144,3 +144,12 @@ select:focus {
 .link-button:active {
     background-color: #004085;
 }
+
+.picturesDiv {
+    display: flex;
+}
+
+.picture {
+    width: 350px;
+    padding: 20px;
+}

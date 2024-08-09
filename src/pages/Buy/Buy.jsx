@@ -31,7 +31,7 @@ export function Buy() {
 
     return (
         <main className="buy-page">
-            <h1>Buy Your Book</h1>
+            <h1>Customize Your Book</h1>
 
             <div className="dropdowns">
                 <div className="form-group">
@@ -189,6 +189,11 @@ export function Buy() {
                         </label>
                     </div>
                 </div>
+            </div>
+
+            <div className="picturesDiv">
+                <img src="cover/spanish-english.png" alt="spanish-english cover" className="picture" />
+                <img src="1-nephi-1/spanish-english.png" alt="spanish-english 1 nephi" className="picture" />
             </div>
 
             <LinkButton to="/checkout">Checkout</LinkButton>
